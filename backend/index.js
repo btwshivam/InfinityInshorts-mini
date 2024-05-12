@@ -31,7 +31,7 @@ app.use(express.json())
 app.use("/images",express.static(path.join(__dirname,"/images")))
 app.use(cors(
     {
-        origin: ["https://infinity-inshorts.vercel.app"],
+        origin: ["https://infinity-insights-pi.vercel.app"],
          methods: ["POST", "GET"],
         credentials: true
     }
